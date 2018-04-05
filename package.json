@@ -1,0 +1,30 @@
+{
+  "name": "move-sort",
+  "version": "0.0.0",
+  "description": "Switch an array item's index and get a new sorted array.",
+  "main": "dist/move-sort.cjs.js",
+  "module": "dist/move-sort.es.js",
+  "unpkg": "dist/move-sort.min.js",
+  "files": ["dist"],
+  "repository": "https://github.com/syropian/move-sort",
+  "author": "Collin Henderson <collin@syropia.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "bili",
+    "test": "jest",
+    "watch-test": "jest --watchAll"
+  },
+  "bili": {
+    "format": ["cjs", "umd-min", "es"],
+    "moduleName": "MoveSort"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.44",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "bili": "^3.0.15",
+    "jest": "^22.4.3"
+  }
+}
