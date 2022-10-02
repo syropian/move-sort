@@ -11,7 +11,7 @@ $ npm install move-sort --save
 **or** include it in a `<script>` tag, hosted by [unpkg](https://unpkg.com).
 
 ```js
-<script src="//unpkg.com/move-sort" />
+<script src="https://unpkg.com/move-sort/dist/move-sort.iife.js" />
 ```
 
 ## Usage
